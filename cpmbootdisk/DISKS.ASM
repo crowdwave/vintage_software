@@ -1,4 +1,4 @@
-DISKS   ASM	org	100h
+	org	100h
 
 	maclib	diskdef
 
@@ -84,3 +84,4 @@ DISKS   ASM	org	100h
 
 	endef
 	end
+

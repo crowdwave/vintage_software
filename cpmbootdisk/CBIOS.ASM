@@ -1,4 +1,4 @@
-CBIOS   ASM;	Skeletal CBIOS for first level of CP/M 2.0 alteration
+;	Skeletal CBIOS for first level of CP/M 2.0 alteration
 ;
 msize	equ	20	;cp/m version memory size in kilobytes
 ;
@@ -305,3 +305,4 @@ chk03:	ds	16	;check vector 3
 enddat	equ	$	;end of data area
 datsiz	equ	$-begdat;size of data area
 	end
+

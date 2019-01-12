@@ -1,4 +1,4 @@
-REGEN   ASM*
+*
 * REGEN.ASM  vers 1.1  september 30, 1980
 *
 * By	Bryan G. Moore
@@ -714,3 +714,4 @@ tkbuf	ds	1800H	;Lots of space for track buffer
 nbuf	equ	$-1	;Last byte in track buffer storage area
 
 	end
+

@@ -1,4 +1,4 @@
-FIRMB   ASM*****************************************************************
+*****************************************************************
 *								*
 * Firmware for Disk Jockey Model B.				*
 *								*
@@ -707,3 +707,4 @@ SECTNO	DB	0		;    header
 SECLEN	DB	0		;    data
 CRCLO	DB	0		;    buffer
 CRCHI	DB	0
+

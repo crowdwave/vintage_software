@@ -1,4 +1,4 @@
-SINGLE  ASM
+
 *****************************************************************
 *								*
 * Single Drive copy program. This program allows pip (or any	*
@@ -389,3 +389,4 @@ insbmsg	db	acr,alf
 crlf	db	acr,alf,0
 
 	end
+

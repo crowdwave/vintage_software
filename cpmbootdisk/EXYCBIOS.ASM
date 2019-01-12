@@ -1,4 +1,4 @@
-EXYCBIOSASM*****************************************************************
+*****************************************************************
 *								*
 * Cbios for CP/M Ver 2.2 for Disk Jockey 2D controller (all	*
 * revs). Handles diskettes with sector sizes of 128 bytes	*
@@ -1467,7 +1467,7 @@ csv3	ds	64		;Directory check vector for drive D
 dirbuf	ds	128		;Directory buffer
 
 	end
-s	75		;Allocation vector for drive C
+s	75		;Allocation vector for drive C
 alv3	ds	75		;Allocation vector for drive D
 csv0	ds	64		;Directory check vector for drive A
 csv1	ds	64		;Directory check vector for drive B
@@ -1476,4 +1476,4 @@ csv3	ds	64		;Directory check vector for drive D
 dirbuf	ds	128		;Directory buffer
 
 	end
-"Â≤…*Â≤}¥…:√≤*Â≤)=¬ê©"Á≤:ƒ≤O:„≤°µo"Â≤…*C® …*C® Î! …ÕÆ©~2„≤Î~2·≤Õ¶©:≈≤¶2‚≤…ÕÆ©:’≤˛B¬ﬁ©ØO:„≤ÅwÎ:·≤w…»|∑g}o√Î©¿*π≤ØÜ#
+"Â≤…*Â≤}¥…:√≤*Â≤)=¬ê©"Á≤:ƒ≤O:„≤°µo"Â≤…*C® …*C® Î! …ÕÆ©~2„≤Î~2·≤Õ¶©:≈≤¶2‚≤…ÕÆ©:’≤˛¬ﬁ©ØO:„≤ÅwÎ:·≤w…»|∑g}o√Î©Ä*π≤ØÜ#

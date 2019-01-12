@@ -1,4 +1,4 @@
-DISKDEF LIB;	CP/M 2.0 disk re-definition library
+;	CP/M 2.0 disk re-definition library
 ;
 ;	Copyright (c) 1979
 ;	Digital Research
@@ -248,3 +248,4 @@ datsiz	equ	$-begdat
 ;;	db 0 at this point forces hex record
 	endm
 ;
+

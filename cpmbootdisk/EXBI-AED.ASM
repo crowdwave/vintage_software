@@ -1,4 +1,4 @@
-EXBI-AEDASM*****************************************************************
+*****************************************************************
 *								*
 *	VERSION MDFED FOR SORCERER WITH LF FILTER BYPASSED      *
 *								*
@@ -544,7 +544,7 @@ getdpb	lda	cpmdrv		;Get drive #
 *								*
 *****************************************************************
 
-xlts	dw	xlt128		;Xlt for 128 byte sectors
+xlts	dw	xlt128		;Xlt for 128 byte sectors
 	dw	xlt256		;Xlt for 256 byte sectors
 	dw	xlt512		;Xlt for 512 byte sectors
 	dw	xlt124		;Xlt for 1024 byte sectors
@@ -813,7 +813,7 @@ statlp	EQU	$
 	ani	01fh		;mask the unwanted lines
 	jnz	chret		;found a key
 	dcr	b		;scan next line
-	jnz	statlp		;until there are no more
+	jnz	statlp		;until there are no more
 				;here if no key found pressed
 rstop	EQU	$
 	xra	a
@@ -1210,3 +1210,4 @@ csv3	ds	64		;Directory check vector for drive D
 dirbuf	ds	128		;Directory buffer
 
 	end
+

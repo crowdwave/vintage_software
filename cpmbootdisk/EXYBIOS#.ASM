@@ -1,4 +1,4 @@
-EXYBIOS#ASM*****************************************************************
+*****************************************************************
 *								*
 * Cbios for CP/M Ver 2.2 for Disk Jockey 2D controller (all	*
 * revs). Handles diskettes with sector sizes of 128 bytes	*
@@ -1467,3 +1467,4 @@ csv3	ds	64		;Directory check vector for drive D
 dirbuf	ds	128		;Directory buffer
 
 	end
+

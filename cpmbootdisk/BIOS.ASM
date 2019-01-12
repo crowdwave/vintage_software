@@ -1,4 +1,4 @@
-BIOS    ASM;	MDS-800 I/O Drivers for CP/M 2.0
+;	MDS-800 I/O Drivers for CP/M 2.0
 ;	(four drive single density version)
 ;
 ;	Version 2.0 August, 1979
@@ -130,7 +130,7 @@ boot:	;print signon message and go to ccp
 ;
 wboot:;	loader on track 0, sector 1, which will be skipped for warm 
 ;	read cp/m from disk - assuming there is a 128 byte cold start
-;	start.
+;	start.
 ;
 	lxi	sp,buff	;using dma - thus 80 thru ff ok for stack
 ;
@@ -481,3 +481,4 @@ iod:	dw	buff	;io address
 ;	define ram areas for bdos operation
 	endef
 	end
+
